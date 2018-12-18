@@ -9,6 +9,14 @@ body {
 	font-family: Arial;
 }
 
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
 /* HEADER */
 
 header {
@@ -49,5 +57,38 @@ nav .menu {
 
 nav .menu.signin {
 	padding-right: 24px;
+}
+
+/* TOP BANNER */
+
+.banner {
+	display: flex;
+	border:1px solid grey;
+	background-color: #f5f5f5;
+}
+
+.banner .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.banner .content h1 {
+	font-weight: bold;
+}
+
+.banner img {
+	width: 60%;
+	height: 100%;
+	padding: 32px 24px;
+}
+
+.banner .content .button {
+	width: 100%;
+	color: white;
+	background-color: #6f6f6f;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
