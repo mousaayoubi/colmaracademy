@@ -105,7 +105,6 @@ nav .menu.signin {
 	flex-direction: column;
 	width: 60%;
 	padding: 32px 24px;
-	border: 1px solid grey;
 }
 
 .info.main img {
@@ -126,14 +125,12 @@ nav .menu.signin {
 	display: flex;
 	flex-direction: column;
 	width: 40%;
-	border: 1px solid grey;
 }
 
 .info.sub.container {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
-	border: 1px solid grey;
 }
 
 .info.sub.container.text {
@@ -141,7 +138,6 @@ nav .menu.signin {
 	flex-direction: column;
 	justify-content: center;
 	width: 65%;
-	border: 1px solid grey;
 }
 
 .info.sub.container.text h4 {
