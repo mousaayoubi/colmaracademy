@@ -7,6 +7,7 @@ html {
 
 body {
 	font-family: Arial;
+	line-height: 1.4;
 }
 
 h1 {
@@ -18,7 +19,7 @@ h2 {
 }
 
 h5 {
-	font-size: 0.75rem;
+	font-size: 0.7rem;
 }
 
 /* HEADER */
@@ -159,4 +160,65 @@ nav .menu.signin {
 	height: auto;
 	align-self: center;
 	padding: 16px 16px;
+}
+
+/* COURSES */
+
+.courses {
+	background-color: #DCDCDC;
+}
+
+.courses.title h2 {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 32px;
+}
+
+.courses.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 32px 72px;
+	padding-right: 40px;
+	width: 960px;
+}
+
+.courses.topics {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.courses.topics img {
+	height: auto;
+	width: 100%;
+}
+
+.courses.topics.content {
+	display: flex;
+	flex-direction: column;
+	padding-top: 16px;
+	padding-bottom: 24px;
+	background-color: white;
+	width: 100%;
+	height: 110px;
+}
+
+.courses.topics.content h4 {
+	font-weight: bold;
+	padding-left: 16px;
+}
+
+.courses.topics.content h5.names {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+}
+
+.courses.topics.content h5.types {
+	padding-left: 16px;
+	padding-right: 16px;
 }
