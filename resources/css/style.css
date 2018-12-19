@@ -17,6 +17,10 @@ h2 {
 	font-size: 1.5rem;
 }
 
+h5 {
+	font-size: 0.75rem;
+}
+
 /* HEADER */
 
 header {
@@ -90,3 +94,73 @@ nav .menu.signin {
 	padding-bottom: 8px;
 }
 
+/* INFORMATION SECTION */
+
+.info.container {
+	display: flex;
+}
+
+.info.main {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	padding: 32px 24px;
+	border: 1px solid grey;
+}
+
+.info.main img {
+	width: 100%;
+}
+
+.info.main h2 {
+	font-weight: bold;
+	padding-top: 32px;
+	padding-bottom: 24px;
+}
+
+.info.main .source h4 {
+	font-weight: bold;
+}
+
+.info.sub {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	border: 1px solid grey;
+}
+
+.info.sub.container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.info.sub.container.text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 65%;
+	border: 1px solid grey;
+}
+
+.info.sub.container.text h4 {
+	font-weight: bold;
+}
+
+.info.sub.container.text h5 {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.info.sub.container.text .link {
+	font-size: 0.75rem;
+	color: #3232ff;
+}
+
+.info.sub.container img {
+	width: 35%;
+	height: auto;
+	align-self: center;
+	padding: 16px 16px;
+}
