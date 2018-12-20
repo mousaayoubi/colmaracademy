@@ -230,9 +230,14 @@ h5.options {
 	padding-top: 32px;
 }
 
-.thesis.info.main {
-
+.info.main video {
+	width: 100%;
 }
+
+.info.main h2 {
+	text-align: left;
+}
+
 
 /* FOOTER */
 
