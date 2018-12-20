@@ -233,3 +233,29 @@ h5.options {
 .thesis.info.main {
 
 }
+
+/* FOOTER */
+
+footer {
+	display: flex;
+	padding-top: 16px;
+	padding-left: 24px;
+	padding-bottom: 16px;
+	background-color: #F8F8F8;
+	border-top: 1px solid #DCDCDC;
+}
+
+h5.copyright {
+	width: 50%;
+}
+
+.footer.links {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 16px;
+	width: 100%;
+}
+
+h5.terms {
+	padding-right: 16px;
+}
