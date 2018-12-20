@@ -2,7 +2,7 @@
 
 html {
 	font-size: 18px;
-	color: #4c4c4c;
+	color: #4C4C4C;
 }
 
 body {
@@ -67,7 +67,7 @@ nav .menu.signin {
 
 .banner {
 	display: flex;
-	background-color: #f5f5f5;
+	background-color: #D3D3D3;
 }
 
 .banner .content {
@@ -99,6 +99,7 @@ nav .menu.signin {
 
 .info.container {
 	display: flex;
+	background-color: #F8F8F8;
 }
 
 .info.main {
@@ -217,3 +218,15 @@ h5.options {
 	padding-right: 16px;
 }
 
+/* THESIS */
+
+.thesis {
+	font-weight: bold;
+	text-align: center;
+	padding-top: 32px;
+	background-color: #F8F8F8;
+}
+
+.thesis.info.main {
+
+}
