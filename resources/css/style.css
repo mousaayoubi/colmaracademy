@@ -221,10 +221,13 @@ h5.options {
 /* THESIS */
 
 .thesis {
+	background-color: #F8F8F8;
+}
+
+.thesis h2 {
 	font-weight: bold;
 	text-align: center;
 	padding-top: 32px;
-	background-color: #F8F8F8;
 }
 
 .thesis.info.main {
