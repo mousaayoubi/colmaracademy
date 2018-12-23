@@ -133,11 +133,17 @@ nav .menu.mobile {
 
 	.banner .content h1 {
 		padding-top: 32px;
+		padding-bottom: 16px;
 		padding-left: 16px;
 	}
 
 	.banner .content h2 {
 		padding-left: 16px;
+		padding-bottom: 12px;
+	}
+
+	.banner .content .button {
+		margin-bottom: 32px;
 	}
 }
 
@@ -238,6 +244,11 @@ h4.source {
 
 	.info.sub.container.text .link {
 		padding-left: 16px;
+		padding-bottom: 48px;
+	}
+
+	span#last.link {
+		padding-bottom: 32px;
 	}
 }
 /* COURSES */
@@ -250,7 +261,7 @@ h4.source {
 	text-align: center;
 	font-weight: bold;
 	padding-top: 32px;
-	padding-bottom: 32px;
+	padding-bottom: 16px;
 }
 
 .courses.container {
@@ -301,6 +312,10 @@ h5.options {
 	.courses.topics {
 		width: 100%;
 		padding-bottom: 8px;
+	}
+
+	h4#last.title {
+		margin-bottom: 24px;
 	}
 
 	.courses.topics img {
@@ -360,6 +375,7 @@ h5.options {
 @media only screen and (max-width: 480px) {
 	.info.main.two {
 		width: 100%;
+		padding: 16px 0 24px 0;
 	}
 
 	.info.sub.two {
