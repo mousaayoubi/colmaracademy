@@ -346,7 +346,11 @@ h5.options {
 		justify-content: center;
 	}
 
-	.courses.topics {
+	.courses.topics img {
+		display: block;
+	}
+
+	.courses.content {
 		display: block;
 	}
 }
