@@ -132,10 +132,6 @@ nav .menu.mobile {
 		padding: 0;
 	}
 
-	.banner .content {
-
-	}
-
 	.banner .content h1 {
 		padding-left: 16px; 
 	}
@@ -251,7 +247,7 @@ h4.source {
 		padding-bottom: 48px;
 	}
 
-	span#last.link {
+	span#last2.link {
 		padding-bottom: 32px;
 	}
 }
