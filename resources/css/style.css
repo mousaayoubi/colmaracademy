@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	font-family: Arial;
+	font-family: "Source Sans Pro", Arial;
 	line-height: 1.4;
 }
 
@@ -311,15 +311,12 @@ h5.options {
 @media only screen and (max-width: 480px) {
 	.courses.container {
 		padding-left: 40px;
+		padding-bottom: 24px;
 	}
 	.courses.topics {
 		width: 100%;
 		padding-right: 0px;
 		padding-bottom: 8px;
-	}
-
-	h4#last.title {
-		margin-bottom: 24px;
 	}
 
 	.courses.topics img {
