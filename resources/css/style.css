@@ -67,7 +67,7 @@ nav .menu.mobile {
 		visibility: hidden;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 	header .logo.text1 {
 		display: none;
 	}
@@ -120,7 +120,7 @@ nav .menu.mobile {
 	padding-bottom: 8px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 	.banner {
 		display: block;
 	}
@@ -215,7 +215,7 @@ h4.source {
 	padding: 16px 16px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 	.info.main.one {
 		display: none;
 	}
@@ -308,7 +308,7 @@ h5.options {
 	padding-right: 16px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 	.courses.container {
 		padding-left: 40px;
 		padding-bottom: 24px;
@@ -373,7 +373,7 @@ h5.options {
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 	.info.main.two {
 		width: 100%;
 		padding: 16px 0 24px 0;
@@ -418,7 +418,7 @@ h5.terms {
 	padding-right: 16px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 	h5.copyright {
 		width: 100%;
 		text-align: center;
