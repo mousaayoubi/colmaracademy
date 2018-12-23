@@ -345,6 +345,10 @@ h5.options {
 	.courses.container {
 		justify-content: center;
 	}
+
+	.courses.topics {
+		display: block;
+	}
 }
 
 /* THESIS */
