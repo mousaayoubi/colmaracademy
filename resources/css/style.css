@@ -135,11 +135,15 @@ nav .menu.mobile {
 	}
 
 	.banner .content h1 {
-		
+		padding-left: 16px; 
 	}
 
 	.banner .content h2 {
-		
+		padding-left: 16px;
+	}
+
+	.banner .content .button {
+		margin-bottom: 32px;
 	}
 }
 
