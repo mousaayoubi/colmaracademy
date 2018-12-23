@@ -67,6 +67,7 @@ nav .menu.mobile {
 		visibility: hidden;
 }
 
+/* MOBILE MEDIA QUERY */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	header .logo.text1 {
 		display: none;
@@ -120,6 +121,7 @@ nav .menu.mobile {
 	padding-bottom: 8px;
 }
 
+/* MOBILE MEDIA QUERY */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.banner {
 		display: block;
@@ -215,6 +217,8 @@ h4.source {
 	padding: 16px 16px;
 }
 
+
+/* MOBILE MEDIA QUERY */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.info.main.one {
 		display: none;
@@ -308,6 +312,7 @@ h5.options {
 	padding-right: 16px;
 }
 
+/* MOBILE MEDIA QUERY */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.courses.container {
 		padding-left: 40px;
@@ -336,6 +341,13 @@ h5.options {
 
 	h5.options {
 		display: none;
+	}
+}
+
+/* TABLET MEDIA QUERY */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.courses.container {
+		justify-content: center;
 	}
 }
 
@@ -372,7 +384,7 @@ h5.options {
 	width: 40%;
 }
 
-
+/* MOBILE MEDIA QUERY */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.info.main.two {
 		width: 100%;
@@ -418,6 +430,7 @@ h5.terms {
 	padding-right: 16px;
 }
 
+/* MOBILE MEDIA QUERY */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	h5.copyright {
 		width: 100%;
