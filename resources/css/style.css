@@ -2,7 +2,7 @@
 
 html {
 	font-size: 18px;
-	color: #4C4C4C;
+	color: #4c4c4c;
 }
 
 body {
@@ -46,7 +46,7 @@ header .logo.text2 {
 	display: flex;
 	align-items: center;
 	height: 32px;
-	color: grey;
+	color: #808080;
 }
 
 nav {
@@ -92,7 +92,7 @@ nav .menu.mobile {
 
 .banner {
 	display: flex;
-	background-color: #D3D3D3;
+	background-color: #d3d3d3;
 }
 
 .banner img {
@@ -118,7 +118,7 @@ nav .menu.mobile {
 
 .banner.content .button {
 	width: 100%;
-	color: white;
+	color: #ffffff;
 	background-color: #6f6f6f;
 	text-align: center;
 	padding-top: 8px;
@@ -126,7 +126,7 @@ nav .menu.mobile {
 }
 
 .banner.content .button:hover {
-	background-color: #3636B3;
+	background-color: #3636b3;
 }
 
 /* MOBILE MEDIA QUERY */
@@ -159,7 +159,7 @@ nav .menu.mobile {
 
 .shared.container {
 	display: flex;
-	background-color: #F8F8F8;
+	background-color: #f8f8f8;
 }
 
 .shared.main.one {
@@ -180,7 +180,7 @@ nav .menu.mobile {
 }
 
 .shared.main.one h2:hover {
-	color: #3636B3;
+	color: #3636b3;
 }
 
 .shared.main.one h4 {
@@ -217,7 +217,7 @@ h4.source {
 }
 
 .shared.sub.container.text h4:hover {
-	color: #3636B3;
+	color: #3636b3;
 }
 .shared.sub.container.text h5 {
 	padding-top: 8px;
@@ -281,7 +281,7 @@ h4.source {
 /* COURSES */
 
 .courses {
-	background-color: #DCDCDC;
+	background-color: #dcdcdc;
 }
 
 .courses h2 {
@@ -314,7 +314,7 @@ h4.source {
 .courses.content {
 	height: 50%;
 	width: 100%;
-	background-color: white;
+	background-color: #ffffff;
 }
 
 h4.title {
@@ -324,7 +324,7 @@ h4.title {
 }
 
 h4.title:hover {
-	color: #3636B3;
+	color: #3636b3;
 }
 
 h5.subtitle {
@@ -359,7 +359,7 @@ h5.options {
 		padding-top: 16px;
 		padding-bottom: 24px;
 		padding-left: 16px;
-		background-color: darkgrey;
+		background-color: #a9a9a9;
 	}
 
 	h5.subtitle {
@@ -385,7 +385,7 @@ h5.options {
 /* THESIS */
 
 .thesis {
-	background-color: #F8F8F8;
+	background-color: #f8f8f8;
 }
 
 .thesis h2 {
@@ -447,8 +447,8 @@ footer {
 	padding-top: 16px;
 	padding-left: 24px;
 	padding-bottom: 16px;
-	background-color: #F8F8F8;
-	border-top: 1px solid #DCDCDC;
+	background-color: #f8f8f8;
+	border-top: 1px solid #dcdcdc;
 }
 
 h5.copyright {
