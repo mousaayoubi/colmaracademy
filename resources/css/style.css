@@ -64,7 +64,7 @@ nav .menu.signin {
 }
 
 nav .menu.mobile {
-		display: none;
+	display: none;
 }
 
 /* MOBILE MEDIA QUERY */
@@ -82,7 +82,6 @@ nav .menu.mobile {
 	}
 
 	nav .menu.mobile {
-		visibility: visible;
 		display: flex;
 		justify-content: space-around;
 		width: 100%;
@@ -102,22 +101,22 @@ nav .menu.mobile {
 	padding: 32px 24px;
 }
 
-.banner .content {
+.banner.content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
-.banner .content h1 {
+.banner.content h1 {
 	font-weight: bold;
 	padding-bottom: 24px;
 }
 
-.banner .content h2 {
+.banner.content h2 {
 	padding-bottom: 24px;
 }
 
-.banner .content .button {
+.banner.content .button {
 	width: 100%;
 	color: white;
 	background-color: #6f6f6f;
@@ -137,17 +136,17 @@ nav .menu.mobile {
 		padding: 0;
 	}
 
-	.banner .content h1 {
+	.banner.content h1 {
 		padding: 32px 16px;
 	}
 
-	.banner .content h2 {
+	.banner.content h2 {
 		padding-left: 16px;
 		padding-right: 16px;
 		padding-bottom: 24px;
 	}
 
-	.banner .content .button {
+	.banner.content .button {
 		margin-bottom: 32px;
 	}
 }
@@ -176,6 +175,10 @@ nav .menu.mobile {
 	padding-bottom: 24px;
 }
 
+.info.main.one h4 {
+	padding-bottom: 24px;
+}
+
 h4.source {
 	font-weight: bold;
 }
@@ -183,7 +186,6 @@ h4.source {
 .info.sub.one {
 	display: flex;
 	flex-direction: column;
-	padding-top: 32px;
 	width: 40%;
 }
 
@@ -191,6 +193,7 @@ h4.source {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
+	padding-top: 32px;
 }
 
 .info.sub.container.text {
@@ -198,6 +201,7 @@ h4.source {
 	flex-direction: column;
 	justify-content: center;
 	width: 65%;
+	padding-top: 0px;
 }
 
 .info.sub.container.text h4 {
@@ -371,7 +375,8 @@ h5.options {
 .thesis h2 {
 	font-weight: bold;
 	text-align: center;
-	padding-top: 32px;
+	padding-top: 24px;
+	padding-bottom: 8px;
 }
 
 .info.main.two {
