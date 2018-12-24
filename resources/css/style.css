@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	font-family: "Source Sans Pro", Arial;
+	font-family: "Source Sans Pro", Arial, sans-serif;
 	line-height: 1.4;
 }
 
@@ -125,6 +125,10 @@ nav .menu.mobile {
 	padding-bottom: 8px;
 }
 
+.banner.content .button:hover {
+	background-color: #3636B3;
+}
+
 /* MOBILE MEDIA QUERY */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.banner {
@@ -175,6 +179,10 @@ nav .menu.mobile {
 	padding-bottom: 24px;
 }
 
+.shared.main.one h2:hover {
+	color: #3636B3;
+}
+
 .shared.main.one h4 {
 	padding-bottom: 24px;
 }
@@ -208,6 +216,9 @@ h4.source {
 	font-weight: bold;
 }
 
+.shared.sub.container.text h4:hover {
+	color: #3636B3;
+}
 .shared.sub.container.text h5 {
 	padding-top: 8px;
 	padding-bottom: 8px;
@@ -312,6 +323,10 @@ h4.title {
 	font-weight: bold;
 }
 
+h4.title:hover {
+	color: #3636B3;
+}
+
 h5.subtitle {
 	padding-top: 8px;
 	padding-bottom: 8px;
@@ -393,6 +408,10 @@ h5.options {
 
 .shared.main.two h2 {
 	text-align: left;
+}
+
+.shared.main.two h2:hover {
+	color: #3636B3;
 }
 
 .shared.sub.two {
