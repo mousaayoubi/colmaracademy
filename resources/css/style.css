@@ -36,14 +36,16 @@ header img {
 }
 
 header .logo.text1 {
-	display: block;
+	display: flex;
+	align-items: center;
 	height: 32px;
 	font-weight: bold;
 	z-index: 1;
 }
 
 header .logo.text2 {
-	display: block;
+	display: flex;
+	align-items: center;
 	height: 32px;
 	color: #808080;
 }
