@@ -288,7 +288,7 @@ h4.source {
 	text-align: center;
 	font-weight: bold;
 	padding-top: 32px;
-	padding-bottom: 16px;
+	padding-bottom: 32px;
 }
 
 .courses.container {
@@ -341,10 +341,15 @@ h5.options {
 
 /* MOBILE RESPONSIVNESS */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+	.courses h2 {
+		padding-bottom: 16px;
+	}
+
 	.courses.container {
 		padding-left: 40px;
 		padding-bottom: 24px;
 	}
+
 	.courses.topics {
 		width: 100%;
 		padding-right: 0px;
@@ -391,15 +396,17 @@ h5.options {
 .thesis h2 {
 	font-weight: bold;
 	text-align: center;
-	padding-top: 24px;
-	padding-bottom: 8px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 .shared.main.two {
 	display: flex;
 	flex-direction: column;
 	width: 60%;
-	padding: 32px 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 32px;
 }
 
 .shared.main video {
@@ -408,6 +415,7 @@ h5.options {
 
 .shared.main.two h2 {
 	text-align: left;
+	padding-bottom: 8px;
 }
 
 .shared.main.two h2:hover {
@@ -422,6 +430,10 @@ h5.options {
 
 /* MOBILE RESPONSIVNESS */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+	.thesis h2 {
+		padding-bottom: 8px;
+	}
+
 	.shared.main.two {
 		width: 100%;
 		padding: 8px 0 24px 0;
