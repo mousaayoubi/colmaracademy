@@ -67,7 +67,7 @@ nav .menu.mobile {
 	display: none;
 }
 
-/* MOBILE MEDIA QUERY */
+/* MOBILE RESPONSIVNESS */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	header .logo.text1 {
 		display: none;
@@ -129,7 +129,7 @@ nav .menu.mobile {
 	background-color: #3636b3;
 }
 
-/* MOBILE MEDIA QUERY */
+/* MOBILE RESPONSIVNESS */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.banner {
 		display: block;
@@ -237,7 +237,7 @@ h4.source {
 }
 
 
-/* MOBILE MEDIA QUERY */
+/* MOBILE RESPONSIVNESS */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.shared.main.one {
 		display: none;
@@ -339,7 +339,7 @@ h5.options {
 	padding-right: 16px;
 }
 
-/* MOBILE MEDIA QUERY */
+/* MOBILE RESPONSIVNESS */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.courses.container {
 		padding-left: 40px;
@@ -371,7 +371,7 @@ h5.options {
 	}
 }
 
-/* TABLET MEDIA QUERY */
+/* TABLET RESPONSIVNESS */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 	.courses.container {
 		justify-content: center;
@@ -420,7 +420,7 @@ h5.options {
 	width: 40%;
 }
 
-/* MOBILE MEDIA QUERY */
+/* MOBILE RESPONSIVNESS */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.shared.main.two {
 		width: 100%;
@@ -466,7 +466,7 @@ h5.terms {
 	padding-right: 16px;
 }
 
-/* MOBILE MEDIA QUERY */
+/* MOBILE RESPONSIVNESS */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	footer {
 		padding-left: 0px;
