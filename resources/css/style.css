@@ -39,6 +39,7 @@ header .logo.text1 {
 	display: block;
 	height: 32px;
 	font-weight: bold;
+	z-index: 1;
 }
 
 header .logo.text2 {
@@ -376,9 +377,6 @@ h5.options {
 
 /* TABLET RESPONSIVNESS */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-	body { -webkit-text-size-adjust: none; 
-	}
-
 	.courses.container {
 		justify-content: center;
 	}
