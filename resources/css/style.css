@@ -242,6 +242,7 @@ h4.source {
 	.shared.sub.container {
 		display: flex;
 		flex-direction: column;
+		padding-top: 0px;
 	}
 
 	.shared.sub.container img {
