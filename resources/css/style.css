@@ -36,17 +36,14 @@ header img {
 }
 
 header .logo.text1 {
-	display: flex;
-	align-items: center;
+	display: block;
 	height: 32px;
 	font-weight: bold;
 }
 
 header .logo.text2 {
-	display: flex;
-	align-items: center;
+	display: block;
 	height: 32px;
-	width: 20%;
 	color: #808080;
 }
 
