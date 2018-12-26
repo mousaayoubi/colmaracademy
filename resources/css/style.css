@@ -223,6 +223,7 @@ h4.source {
 .shared.sub.container.text h4:hover {
 	color: #3636b3;
 }
+
 .shared.sub.container.text h5 {
 	padding-top: 8px;
 	padding-bottom: 8px;
@@ -282,6 +283,7 @@ h4.source {
 		padding-bottom: 32px;
 	}
 }
+
 /* COURSES */
 
 .courses {
