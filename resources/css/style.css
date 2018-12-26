@@ -127,6 +127,10 @@ nav .menu.mobile {
 
 .banner.content .button:hover {
 	background-color: #3636b3;
+	transition-property: background-color;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in;
+	transition-delay: 100ms;
 }
 
 /* MOBILE RESPONSIVNESS */
