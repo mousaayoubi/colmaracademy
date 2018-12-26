@@ -419,6 +419,7 @@ h5.options {
 
 .shared.main.two h2 {
 	text-align: left;
+	padding-top: 24px;
 	padding-bottom: 8px;
 }
 
